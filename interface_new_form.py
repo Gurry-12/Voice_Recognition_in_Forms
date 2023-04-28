@@ -43,9 +43,7 @@ def recognize_speech(entry_field):
             print("Transcript:", transcript)
             entry_field.delete(0, tk.END)
             entry_field.insert(0, transcript)
-            f1 = open("text.txt",mode="a")
-            f1.write(transcript + "\n")
-            f1.close()
+            
 
             # If email field is updated, clarify and add "@" symbol
             if entry_field == email_entry:
