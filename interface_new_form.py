@@ -40,7 +40,7 @@ def recognize_speech(entry_field):
         try:
             # Transcribe human voice from microphone input
             transcript = recognizer.recognize_google(audio)
-            print("Transcript:", transcript)
+            #print("Transcript:", transcript)
             entry_field.delete(0, tk.END)
             entry_field.insert(0, transcript)
             
