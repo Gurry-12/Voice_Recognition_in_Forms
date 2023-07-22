@@ -34,7 +34,7 @@ Run the application:
 
 # Acknowledgements
 
-   The speech recognition feature uses the speech_recognition library by Anthony Zhang (Uberi). [SpeechRecognition on GitHub](SpeechRecognitiononGitHub)
+   The speech recognition feature uses the speech_recognition library by Anthony Zhang (Uberi). SpeechRecognition on GitHub
   The tkinter-based form interface is built using Python's built-in tkinter library.
 
 # Contact
